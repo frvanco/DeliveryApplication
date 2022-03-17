@@ -4,6 +4,7 @@ import {
   ImageHeaderScrollView,
   TriggeringView,
 } from "react-native-image-header-scroll-view";
+
 class HeaderTabs extends React.Component {
   render() {
     return (

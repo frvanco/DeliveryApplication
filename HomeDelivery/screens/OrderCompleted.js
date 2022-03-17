@@ -51,7 +51,7 @@ export default function OrderCompleted() {
       {/* green checkmark */}
       <View
         style={{
-          margin: 15,
+          margin: 40,
           alignItems: "center",
           height: "100%",
         }}
@@ -74,7 +74,7 @@ export default function OrderCompleted() {
           />
           <LottieView
             style={{ height: 200, alignSelf: "center" }}
-            source={require("../assets/animations/cooking.json")}
+            source={require("../assets/animations/delivery.json")}
             autoPlay
             speed={0.5}
           />
