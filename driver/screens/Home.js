@@ -2,7 +2,7 @@ import * as Font from "expo-font";
 import React from "react";
 import { View, Text, SafeAreaView, ScrollView } from "react-native";
 import { Divider } from "react-native-elements";
-import ReceiveNotifications from "../component/Notifications";
+import ReceiveNotifications from "../components/Notifications";
 
 export default function Home({ navigation }) {
   return (
