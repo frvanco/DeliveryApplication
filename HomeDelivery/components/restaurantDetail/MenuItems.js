@@ -55,7 +55,6 @@ export default function MenuItems({
                 fillColor="green"
                 isChecked={isFoodInCart(food, cartItems)}
                 onPress={(checkboxValue) => selectItem(food, checkboxValue)}
-                isChecked={isFoodInCart(food, cartItems)}
               />
             )}
             <FoodInfo food={food} />
